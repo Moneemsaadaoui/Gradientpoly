@@ -4,9 +4,24 @@ Gradient polylines on android .. finally🤙⛳ 🌍
 <img src="https://github.com/Moneemsaadaoui/Gradientpoly/blob/master/Screenshot_20190123-161621_GradientPolylinesExample.jpg" width="250">  <img src="https://github.com/Moneemsaadaoui/Gradientpoly/blob/master/Screenshot_20190123-161814_GradientPolylinesExample.jpg" width="250">  <img src="https://github.com/Moneemsaadaoui/Gradientpoly/blob/master/Screenshot_20190123-161841_GradientPolylinesExample.jpg" width="250">
 
 ## Getting started🦗
+
+In your project build.gradle add: 🎉🎉
+```gradle
+
+allprojects {
+    repositories {
+        ..
+        maven { url 'https://dl.bintray.com/moneemsaadaoui/GradientPoly/' }
+        ..
+      }
+}
+```
+In your app module build.gradle :
 ```gradle
 compile 'com.rrdl.GradientPoly:GradientPoly:0.1.0'
 ```
+
+Now you're all good to go !😎
 
 ## Usage 🐜
 ```java
